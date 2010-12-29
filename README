@@ -1,0 +1,41 @@
+/**
+ * jQuery Canvas Loader Plugin 1.3
+ *
+ * Creates an alternative to ajax loader images with the canvas element.
+ *
+ * Tested on Mobile Safari and Android browsers.
+ *
+ * By Jamund Xcot Ferguson
+ * 
+ * Twitter: @xjamundx
+ * Blog: http://www.jamund.com/
+ *
+ * Usage:
+ *
+ * Without options:
+ *
+ *      $("img.ajaxLoader").canvasLoader();
+ *
+ * With options:
+ * 
+ *		$("img.ajaxLoader").canvasLoader({
+ *   		'radius':10,
+ *   		'color':'rgb(255,0,0),
+ *  		'dotRadius':10,
+ *			'backgroundColor':'transparent'
+ *   		'className':'canvasLoader',   
+ *   		'id':'canvasLoader1',
+ *   		'fps':10
+ *		});
+ *	
+ * Options:
+ *
+ *		radius - width/height of the loader
+ * 		color - color of the pulsing dots
+ * 		dotRadius - radius of the pulsing dots
+ * 		className - class name of the canvas tag
+ *		backgroundColor - a background color for the canvas
+ * 		id - id of the canvas tag
+ *		fps - approximate frames per second of the pulsing
+ *
+ **/
